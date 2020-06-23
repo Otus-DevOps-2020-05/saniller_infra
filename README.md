@@ -1,6 +1,6 @@
 # saniller_infra
 
-##### Для входа на someinternalhost с использованием VPN, используем настройки cloud-bastion.ovpn и vpn клиент (я использовал Pritunl client for windows). Пользователь test, пин код 123456
+##### Для входа на someinternalhost с использованием VPN, используем настройки cloud-bastion.ovpn и vpn клиент (я использовал Pritunl client for windows).
 
 bastion_IP = 130.193.39.173
 someinternalhost_IP = 10.130.0.16
