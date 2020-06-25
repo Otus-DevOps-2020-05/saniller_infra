@@ -1,5 +1,14 @@
 # saniller_infra
 
+### ДЗ 6 ###
+
+testapp_IP = 35.198.167.169
+testapp_port = 9292
+
+
+### ДЗ 5 ###
+
+
 ##### Для входа на someinternalhost с использованием VPN, используем настройки cloud-bastion.ovpn и vpn клиент (я использовал Pritunl client for windows).
 
 bastion_IP = 130.193.39.173
