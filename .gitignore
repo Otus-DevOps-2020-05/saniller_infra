@@ -1,1 +1,2 @@
-variables.json
+packer/variables.json
+packer/key.json
