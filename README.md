@@ -1,4 +1,7 @@
 # saniller_infra
+### ДЗ 7 - packer build in yandex cloud ###
+Команда для билда образа с использованием стороннего файла с секретами - variables.json.
+packer build -var-file variables.json ./packer/ubuntu16.json
 
 ### ДЗ 6 ###
 
