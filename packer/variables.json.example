@@ -1,0 +1,7 @@
+{
+    "service_account_key_file": "key.json.example",
+    "folder_id": "yc folder id",
+    "source_image_family": "image family",
+	"platform_id": "select platform",
+	"username": "ubuntu"
+}

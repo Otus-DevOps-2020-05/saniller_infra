@@ -1,4 +1,16 @@
 # saniller_infra
+### ДЗ 7 - packer build in yandex cloud ###
+Команда для билда образа с использованием стороннего файла с секретами - variables.json.
+cd packer && packer build -var-file variables.json ubuntu16.json
+
+### ДЗ 6 ###
+
+testapp_IP = 35.198.167.169
+testapp_port = 9292
+
+
+### ДЗ 5 ###
+
 
 ##### Для входа на someinternalhost с использованием VPN, используем настройки cloud-bastion.ovpn и vpn клиент (я использовал Pritunl client for windows).
 
