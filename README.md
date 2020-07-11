@@ -1,4 +1,10 @@
 # saniller_infra
+
+### ДЗ 8 - terraform ###
+Научились деплоить приложение reddit ререз терраформ.
+Научились использовать основные команды терраформа, переменные. Применять, изменять, уничтожать инфраструктуру.
+
+
 ### ДЗ 7 - packer build in yandex cloud ###
 Команда для билда образа с использованием стороннего файла с секретами - variables.json.
 cd packer && packer build -var-file variables.json ubuntu16.json
