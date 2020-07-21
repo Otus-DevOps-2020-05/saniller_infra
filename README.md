@@ -5,7 +5,7 @@
 #### Выполнение плейбука на клонирование репозитория или поддержание актуальности:
 ansible-playbook clone.yml
 Если удалить, например так:
-ansible app -m command -a 'rm -rf ~/reddit' 
+ansible app -m command -a 'rm -rf ~/reddit'
 и затем снова применить, то будет информация что были изменения.
 
 #### Примеры команд с использованием модулей без использования плейбука:
@@ -17,7 +17,9 @@ ansible db -m systemd -a name=mongod
 ansible app -m git -a \
  'repo=https://github.com/express42/reddit.git dest=/home/appuser/reddit'
 
-
+### ДЗ 9 - Terraform 2 ###
+1) Научились использовать модули: terraform get для инициализации модулей
+2) Научились создавать инфраструктуру в разных окружениях, используя одинаковые модули
 
 
 ### ДЗ 8 - terraform ###
