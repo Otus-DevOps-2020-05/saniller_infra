@@ -1,5 +1,25 @@
 # saniller_infra
 
+### ДЗ 10 - Ansible 1 ###
+
+#### Выполнение плейбука на клонирование репозитория или поддержание актуальности:
+ansible-playbook clone.yml
+Если удалить, например так:
+ansible app -m command -a 'rm -rf ~/reddit' 
+и затем снова применить, то будет информация что были изменения.
+
+#### Примеры команд с использованием модулей без использования плейбука:
+ansible app -m command -a uptime
+ansible app -m command -a 'ruby -v'
+ansible app -m shell -a 'ruby -v; bundler -v'
+ansible all -m ping
+ansible db -m systemd -a name=mongod
+ansible app -m git -a \
+ 'repo=https://github.com/express42/reddit.git dest=/home/appuser/reddit'
+
+
+
+
 ### ДЗ 8 - terraform ###
 Научились деплоить приложение reddit ререз терраформ.
 Научились использовать основные команды терраформа, переменные. Применять, изменять, уничтожать инфраструктуру.
